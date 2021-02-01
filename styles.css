@@ -1,0 +1,271 @@
+body{
+	margin: 0;
+	background-color: black;
+} 
+
+header{
+	width: 100%;
+	background: #121212;
+	height: 80px;
+	color: white;
+	align-content: center;
+}
+
+footer{
+	width: 100%;
+	background: #121212;
+	height: 150px;
+	color: white;
+	align-content: center;
+	margin-top: 40px;
+}
+
+footer a{
+	margin-left: 0 auto; 
+	margin-right: 0 auto;
+	margin: 10px;
+}
+
+#footer_link1, #footer_link2{
+	margin-left: 40em;
+}
+
+
+.topnav{
+	padding-left: 450px; 
+	
+	/*line-height: 20px;*/
+}
+
+
+
+.imdbLogo{
+	height: 32px;
+	width: 60px;
+}
+
+.searchbar{
+	margin-left: 70px;
+	padding: 6px;
+	font-size: 14px;
+	width: 800px;
+}
+
+.search{
+	padding: 6px;
+}
+
+button{
+	background: #121212;
+}
+
+.topnavbutton{
+	padding: 10px;
+	font-size: 14px;
+	color: white;
+}
+
+.output{
+	color: white;
+}
+
+#heading2{
+	margin-left: 70px;
+	font-size: 20px;
+}
+
+
+
+/* Flexbox for homepage */
+.columns{
+	margin: 40px;
+	width:auto;
+	display: flex;
+}
+
+.column{
+	width: 200px;
+	margin:20px;
+	border: 1px solid white;
+	color: white;
+}
+.column_title{
+	color: white;
+	font-style: none;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+/* Here ends flexbox */
+
+
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+/* Movie page styles  */
+h1{
+	color: white;
+	text-align: center;
+}
+
+
+
+.trailposts{
+	margin: 40px;
+	width:auto;
+	display: flex;
+}
+
+.trailpost{
+	height: auto;
+	width: 400px;
+	margin:20px;
+	border: 0px solid white;
+	color: white;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#movie_poster{
+	width: 300px;
+	height: 500px;
+	
+	/*margin-left: 450px; */	
+}
+
+#trailer{
+	width: 600px;
+	height: 500px;
+}
+
+/*width="680px" height="600px" */
+
+
+
+
+main{
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+span{
+	margin-left: 900px;
+}
+
+h4{
+	color: white;
+}
+
+
+/* search page styles */
+.wrapper{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 300px 400px 300px;
+
+
+}
+
+#result1{
+	border: 2px solid white;
+	grid-column: span 4;
+
+}
+
+#result2{
+	border: 2px solid white;
+	grid-column: span 4;
+
+}
+
+#result3{
+	border: 2px solid white;
+	grid-column: span 4;
+
+}
+
+
+/* Media queries */
+@media all and (max-width: 400px) {
+	header{
+		width: 100%;
+		background: #121212;
+		height: 100px;
+		color: white;
+		align-content: center;
+	}
+
+	footer{
+		width: 100%;
+		background: #121212;
+		height: 100px;
+		color: white;
+		align-content: center;
+		margin-top: 40px;
+	}
+
+	.searchbar{
+		margin-left: 20px;
+		padding: 6px;
+		font-size: 14px;
+		width: 500px;
+	}
+
+
+	/* Flexbox for homepage */
+	.columns{
+		margin: 40px;
+		width:auto;
+		display: block;
+		max-width: 400px;
+	}
+
+	.column{
+		width: 400px;
+		margin:20px;
+		border: 1px solid white;
+		color: white;
+	}
+	.column_title{
+		color: white;
+		font-style: none;
+		text-align: center;
+	}
+	a{
+		text-decoration: none;
+	}
+	/* Here ends flexbox */
+
+
+
+	img{
+		max-width: 100%;
+		display: block;
+	}
+
+	#movie_poster{
+		width: 300px;
+		height: 500px;
+		
+		max-width: 100%;
+		display: block;
+
+		margin-left: 20px;
+		margin-right: 0px;
+		/*margin-left: 800px;*/
+	}
+}
+
